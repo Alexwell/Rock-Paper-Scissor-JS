@@ -21,7 +21,6 @@ function init(){
 		resultP.innerHTML = "You choice: "+ usrChoice +", computer choice: " + computerChoice + "<br>" + result;
 	}
 
-	/*--------computer choice-----------*/
 	function computerChoiceAction(){
 		var randomInt = randomInteger(1, 4);
 			switch (randomInt){
@@ -70,4 +69,23 @@ function init(){
 		rand = Math.round(rand);
 		return rand;
 	}
+	function testRandom(){
+		var i = 0,
+				maxI = 100000,
+				counterS = 0,
+				counterP = 0,
+				counterR = 0,
+				computerChoiceTest;
+
+		for (i = 0; i < maxI; i++) {
+			computerChoiceTest = computerChoiceAction();
+			if (computerChoiceTest == "scissors" ) counterS++;
+			else if (computerChoiceTest == "rock" ) counterR++;
+			else counterP++;
+		}
+		console.log("S "+counterS);
+		console.log("R "+counterR);
+		console.log("P "+counterP);
+	}
+	testRandom();
 }
