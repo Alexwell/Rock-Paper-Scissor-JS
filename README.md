@@ -1,1 +1,1 @@
-# Rock-Paper-Scissor-JS
+# Download and run npm install
