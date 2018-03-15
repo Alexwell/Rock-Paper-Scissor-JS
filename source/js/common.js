@@ -7,10 +7,10 @@ function init(){
 
 	/*--------main function-----------*/
 	function game(){
-		var usrInput = prompt("Input: rock, paper or scissors || Введите: камень, ножницы или бумага"),
+		var usrInput = prompt("Input: rock, paper or scissors"),
 				usrChoice = usrInputHandler(usrInput),
-				computerChoice,
-				result;
+				computerChoice = " ",
+				result = " ";
 
 		if (usrChoice == -1) {
 			alert("Incorrect input, lets try again");
@@ -21,7 +21,6 @@ function init(){
 		resultP.innerHTML = "You choice: "+ usrChoice +", computer choice: " + computerChoice + "<br>" + result;
 	}
 
-	/*--------computer choice-----------*/
 	function computerChoiceAction(){
 		var randomInt = randomInteger(1, 4);
 			switch (randomInt){
