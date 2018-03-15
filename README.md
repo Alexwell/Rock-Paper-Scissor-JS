@@ -2,6 +2,10 @@
 
 ## Install
 
-Download and type in terminal - npm install
-Then type in terminal - gulp
+Download and type in terminal
+> npm install
+
+Then type in terminal
+>gulp
+
 (gulp 4 need)
