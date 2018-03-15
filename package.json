@@ -1,17 +1,17 @@
 {
   "name": "gulp-config",
   "version": "1.0.0",
-  "description": "Gulp config for front-end",
+  "description": "Simple RPS game on JS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexander-web/gulp-config.git"
+    "url": "git+https://github.com/alexander-web/Rock-Paper-Scissor-JS.git"
   },
   "keywords": [
-    "gulp",
+    "Java Script",
     "front-end"
   ],
   "author": "Alex",
